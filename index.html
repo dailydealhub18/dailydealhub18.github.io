@@ -1,13 +1,172 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>DailyDealHub</title>
-    <meta name="description" content="Daily deals, reviews, guides, and product picks." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <h1>DailyDealHub</h1>
-    <p>Deals • Reviews • Guides • Picks</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>DailyDealHub18 — Deals, Reviews, Guides & Product Picks</title>
+  <meta name="description" content="DailyDealHub18 curates deals, honest reviews, practical guides, and product picks to help you buy smarter." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://dailydealhub18.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="DailyDealHub18 — Deals, Reviews, Guides & Product Picks" />
+  <meta property="og:description" content="Curated deals, honest reviews, practical guides, and product picks." />
+  <meta property="og:url" content="https://dailydealhub18.github.io/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="DailyDealHub18" />
+  <meta name="twitter:description" content="Curated deals, reviews, guides, and product picks." />
+
+  <!-- Optional: favicon (if you add one later)
+  <link rel="icon" href="/assets/favicon.png" />
+  -->
+
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; }
+    a { text-underline-offset: 3px; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 22px; }
+    header { position: sticky; top: 0; backdrop-filter: blur(10px); border-bottom: 1px solid rgba(128,128,128,.25); }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: .2px; }
+    .brand-badge { width: 34px; height: 34px; border-radius: 10px; border: 1px solid rgba(128,128,128,.35); display: grid; place-items: center; font-weight: 900; }
+    .links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 14px; }
+    .links a { opacity: .9; }
+    .hero { padding: 34px 0 14px; }
+    .hero h1 { font-size: 40px; margin: 0 0 10px; line-height: 1.15; }
+    .hero p { margin: 0 0 18px; opacity: .85; max-width: 60ch; }
+    .cta { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 0; }
+    .btn { display: inline-block; padding: 10px 14px; border-radius: 14px; border: 1px solid rgba(128,128,128,.35); text-decoration: none; font-weight: 600; }
+    .btn.primary { border-color: rgba(128,128,128,.55); }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; margin: 18px 0; }
+    .card { border: 1px solid rgba(128,128,128,.30); border-radius: 16px; padding: 16px; grid-column: span 12; }
+    .card h2 { margin: 0 0 6px; font-size: 18px; }
+    .card p { margin: 0; opacity: .85; }
+    .list { margin: 12px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+    .item { border: 1px dashed rgba(128,128,128,.30); border-radius: 14px; padding: 12px; }
+    .item a { font-weight: 650; text-decoration: none; }
+    .meta { font-size: 13px; opacity: .75; margin-top: 2px; }
+    .footer { border-top: 1px solid rgba(128,128,128,.25); padding: 22px 0 40px; margin-top: 24px; font-size: 14px; opacity: .85; }
+    @media (min-width: 860px) {
+      .card.span6 { grid-column: span 6; }
+    }
+  </style>
+
+  <!-- Structured data (basic) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "DailyDealHub18",
+    "url": "https://dailydealhub18.github.io/",
+    "description": "Curated deals, honest reviews, practical guides, and product picks to help you buy smarter."
+  }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <div class="brand-badge">DH</div>
+        <span>DailyDealHub18</span>
+      </div>
+      <nav class="links" aria-label="Primary">
+        <a href="#deals">Deals</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#guides">Guides</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Deals, Reviews, Guides & Product Picks</h1>
+      <p>
+        We curate real-world deals, honest reviews, and practical buying guides—so you can choose the right product faster.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#deals">Browse Deals</a>
+        <a class="btn" href="#reviews">Read Reviews</a>
+        <a class="btn" href="#guides">See Guides</a>
+      </div>
+      <p class="meta">
+        Note: Some links may be affiliate links. See <a href="disclaimer.html">Disclaimer & Affiliate Disclosure</a>.
+      </p>
+    </section>
+
+    <section class="grid" aria-label="Highlights">
+      <article class="card span6" id="deals">
+        <h2>Latest Deals</h2>
+        <p>Fresh deals and price drops. (Replace these with real posts/links.)</p>
+        <ul class="list">
+          <li class="item">
+            <a href="#">Deal Example: 30% off Wireless Earbuds</a>
+            <div class="meta">Updated: 2025-12-18 • Category: Tech</div>
+          </li>
+          <li class="item">
+            <a href="#">Deal Example: Best Air Purifier Discounts</a>
+            <div class="meta">Updated: 2025-12-18 • Category: Home</div>
+          </li>
+          <li class="item">
+            <a href="#">Deal Example: Budget Monitor Picks</a>
+            <div class="meta">Updated: 2025-12-18 • Category: Office</div>
+          </li>
+        </ul>
+      </article>
+
+      <article class="card span6" id="reviews">
+        <h2>Recent Reviews</h2>
+        <p>Quick, practical reviews focusing on value, pros/cons, and who it’s for.</p>
+        <ul class="list">
+          <li class="item">
+            <a href="#">Review Example: Robot Vacuum (Best for Pet Hair?)</a>
+            <div class="meta">Pros/Cons • Real use cases • Alternatives</div>
+          </li>
+          <li class="item">
+            <a href="#">Review Example: Mechanical Keyboard for Work</a>
+            <div class="meta">Typing feel • Noise • Build quality</div>
+          </li>
+          <li class="item">
+            <a href="#">Review Example: Portable Monitor for Travel</a>
+            <div class="meta">Brightness • Weight • Connectivity</div>
+          </li>
+        </ul>
+      </article>
+
+      <article class="card" id="guides">
+        <h2>Buying Guides</h2>
+        <p>Comparison guides and “best picks” lists designed for SEO-friendly topics.</p>
+        <ul class="list">
+          <li class="item">
+            <a href="#">Guide Example: Best Air Purifiers (Top Picks by Room Size)</a>
+            <div class="meta">How to choose • Filters • Noise • Maintenance</div>
+          </li>
+          <li class="item">
+            <a href="#">Guide Example: Best Laptops for Students (2025)</a>
+            <div class="meta">Performance tiers • Battery • Weight</div>
+          </li>
+          <li class="item">
+            <a href="#">Guide Example: Best Coffee Makers (Beginner to Pro)</a>
+            <div class="meta">Taste • Ease of use • Cleaning</div>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="footer" aria-label="Footer">
+      <p><strong>DailyDealHub18</strong> — curated deals, reviews, guides, and product picks.</p>
+      <p>
+        Contact: <a href="mailto:dailydealhub18@gmail.com">dailydealhub18@gmail.com</a> •
+        <a href="disclaimer.html">Disclaimer & Affiliate Disclosure</a>
+      </p>
+    </section>
+  </main>
+</body>
 </html>
