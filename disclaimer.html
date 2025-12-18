@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Disclaimer & Affiliate Disclosure | DailyDealHub18</title>
+  <meta name="description" content="Affiliate disclosure, disclaimer, and transparency notice for DailyDealHub18." />
+  <meta name="robots" content="index,follow" />
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; margin: 0; }
+    header, main, footer { max-width: 860px; margin: 0 auto; padding: 24px; }
+    header { padding-top: 32px; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    .muted { opacity: .75; margin: 0; }
+    .card { border: 1px solid rgba(128,128,128,.35); border-radius: 14px; padding: 18px; margin: 18px 0; }
+    a { text-underline-offset: 3px; }
+    ul { padding-left: 20px; }
+    footer { padding-bottom: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Disclaimer & Affiliate Disclosure</h1>
+    <p class="muted">DailyDealHub18 transparency notice.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Affiliate Disclosure</h2>
+      <p>
+        This website may contain affiliate links to third-party merchants or service providers.
+        If you click an affiliate link and make a purchase or sign up, we may earn a commission
+        at no additional cost to you.
+      </p>
+      <p>
+        Prices, availability, and promotions may change at any time. Please verify final details
+        (including price, stock, shipping, warranty, and terms) on the merchant’s website before purchasing.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Disclaimer</h2>
+      <ul>
+        <li>This content is provided for general informational purposes only and does not constitute professional advice.</li>
+        <li>We do not guarantee the accuracy, completeness, or timeliness of any information on this site.</li>
+        <li>Your purchasing decisions are solely your responsibility.</li>
+        <li>Third-party merchants are responsible for order fulfillment, warranties, returns, and customer support.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Editorial Independence</h2>
+      <p>
+        Our recommendations and rankings may be based on factors such as value, features, user feedback,
+        availability, and suitability for common use cases. Affiliate relationships do not guarantee positive coverage,
+        and we aim to keep content fair and useful.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>
+        If you have questions about this page, please contact:
+        <a href="mailto:dailydealhub18@gmail.com">dailydealhub18@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="muted">
+    <p>Last updated: <span id="lastUpdated"></span></p>
+    <p><a href="/">← Back to Home</a></p>
+  </footer>
+
+  <script>
+    const d = new Date();
+    const pad = (n) => String(n).padStart(2, "0");
+    document.getElementById("lastUpdated").textContent =
+      `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+  </script>
+</body>
+</html>
